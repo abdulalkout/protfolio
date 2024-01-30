@@ -1,0 +1,48 @@
+.section-1 {
+  text-align: center;
+  display: flex;
+  margin: 30px 200px;
+}
+
+.summery {
+  color: black;
+  font-size: large;
+  margin: 50px 50px;
+}
+.my-name {
+  color: brown;
+  font-size: x-large;
+}
+
+.myPic {
+  width: 500px;
+  border-radius: 5%;
+}
+
+.header {
+  text-align: center;
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+  .section-1 {
+    text-align: center;
+    display: block;
+    margin: 5%;
+  }
+
+  .summery {
+    color: black;
+    font-size: medium;
+    margin: 0px;
+  }
+  .my-name {
+    color: brown;
+    font-size: larger;
+  }
+
+  .myPic {
+    width: 100%;
+    margin-top: 10%;
+  }
+}

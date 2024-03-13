@@ -1,0 +1,48 @@
+.section-3 {
+  text-align: center;
+  margin: 30px 200px;
+}
+
+.education-cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.education-card {
+  width: 250px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.education-card:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.highlighted {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.education-card h3 {
+  color: brown;
+}
+
+@media only screen and (max-width: 800px) {
+  .section-3 {
+    text-align: center;
+    display: block;
+    margin: 5%;
+  }
+
+  .education-cards {
+    flex-direction: column;
+    margin-left: 17%;
+  }
+
+  .education-card {
+    margin-bottom: 20px;
+  }
+}

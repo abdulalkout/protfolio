@@ -1,7 +1,8 @@
 import React from "react";
 import "./Home.css";
 import homeMe from "../../images/coding.jpg";
-import Section2 from "../../components/Section2/Section2";
+import Section2 from "../../components/Section2/Section2.tsx";
+import Section3 from "../../components/Section3/Section3.tsx";
 
 function Home() {
   return (
@@ -20,10 +21,11 @@ function Home() {
         <img className="myPic" src={homeMe} alt="myPic" />
       </div>
       <hr />
-      <div className="header">
-        <h2>Technical Skills</h2>
-      </div>
+      <br />
       <Section2 />
+      <br />
+      <br />
+      <Section3 />
     </>
   );
 }

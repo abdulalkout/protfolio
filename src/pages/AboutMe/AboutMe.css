@@ -1,0 +1,9 @@
+.myPicDiv {
+  display: flex;
+  gap: 10px;
+  /* height: 200px; */
+}
+
+.myPic {
+  width: 400px;
+}

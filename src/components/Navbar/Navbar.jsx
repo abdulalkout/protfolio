@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 import "@fortawesome/fontawesome-free/css/all.css";
+import logo from "../../images/me2.jpg";
 
 // Rest of your React code...
 
@@ -25,7 +26,8 @@ function Navbar() {
   return (
     <div className="sticky-nav">
       <div className={`navbar ${isMobileMenuOpen ? "mobile-menu-open" : ""}`}>
-        <p className="logo">Welcome</p>
+        <img className="logo" src={logo} alt="" />
+        {/* <p className="logo">Welcome</p> */}
         <div className={`pageLinks ${isMobileMenuOpen ? "active" : ""}`}>
           <Link to="/" className="nav-links">
             {isMobileMenuOpen ? <i className="fas fa-home"></i> : <h3>Home</h3>}
@@ -41,7 +43,7 @@ function Navbar() {
             {isMobileMenuOpen ? (
               <i class="fa-solid fa-terminal"></i>
             ) : (
-              <h3>Projects</h3>
+              <h3>Experience</h3>
             )}
           </Link>
           <Link to="/contact" className="nav-links">

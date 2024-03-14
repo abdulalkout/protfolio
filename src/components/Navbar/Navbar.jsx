@@ -39,7 +39,7 @@ function Navbar() {
               <h3>About</h3>
             )}
           </Link>
-          <Link to="/projects" className="nav-links">
+          <Link to="/experience" className="nav-links">
             {isMobileMenuOpen ? (
               <i class="fa-solid fa-terminal"></i>
             ) : (

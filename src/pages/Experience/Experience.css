@@ -1,0 +1,16 @@
+.experiencePadeDiv {
+  margin-top: 80px;
+}
+
+.exHeader {
+  text-align: center;
+}
+
+.exSection:hover {
+  background-color: rgba(65, 29, 29, 0.196) !important;
+  cursor: pointer;
+}
+
+.software-Experience {
+  margin-top: 10px;
+}

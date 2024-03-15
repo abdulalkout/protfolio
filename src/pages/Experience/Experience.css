@@ -14,3 +14,84 @@
 .software-Experience {
   margin-top: 10px;
 }
+
+.oilwebimg,
+.oilFieldimg {
+  width: 500px;
+  height: 300px;
+}
+
+.aktimg {
+  height: 200px;
+}
+
+.imageDiv {
+  display: flex;
+  gap: 20px;
+}
+
+.Software-div {
+  margin-top: 50px;
+}
+
+.sectionIntro {
+  font-size: larger;
+}
+.projectIntro {
+  font-size: larger;
+  margin-top: 80px;
+}
+.projectIntro2 {
+  font-size: larger;
+  margin-top: 50px;
+}
+
+.projectPoints {
+  font-size: medium;
+  margin-top: 50px;
+  text-align: left;
+}
+
+.wirelineIntro2 h4 {
+  margin-top: 0px;
+  color: brown;
+}
+
+@media only screen and (max-width: 800px) {
+  /* For mobile phones: */
+  .oilwebimg {
+    width: 300px;
+    height: 150px;
+  }
+
+  .aktimg {
+    height: 200px;
+  }
+
+  .imageDiv {
+    display: block;
+    /* flex-direction: column; */
+    gap: 25px;
+  }
+
+  .sectionIntro {
+    font-size: medium;
+  }
+  .projectIntro {
+    font-size: medium;
+    margin-top: 5px;
+  }
+
+  .projectPoints {
+    text-align: left;
+    font-size: medium;
+    margin-top: 20px;
+    margin-left: 25px;
+  }
+
+  .oilFieldimg {
+    height: 250px;
+    width: 250px;
+    margin-bottom: 10px;
+  }
+}

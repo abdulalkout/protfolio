@@ -39,7 +39,8 @@
 
   .education-cards {
     flex-direction: column;
-    margin-left: 17%;
+    /* margin-left: 17%; */
+    align-items: center;
   }
 
   .education-card {

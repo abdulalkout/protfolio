@@ -15,7 +15,7 @@
 }
 
 .myPic {
-  height: 400px;
+  width: 500px;
   border-radius: 5%;
 }
 
@@ -28,7 +28,7 @@
   .section-1 {
     text-align: center;
     display: block;
-    margin: 5%;
+    margin: 0px 20px;
   }
 
   .summery {
@@ -42,7 +42,7 @@
   }
 
   .myPic {
-    width: 100%;
-    margin-top: 10%;
+    width: 60%;
+    margin-top: 5%;
   }
 }

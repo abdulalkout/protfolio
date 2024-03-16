@@ -9,9 +9,9 @@ function Footer() {
         <div className="social-icons">
           {/* Add your social media icons or links here */}
           {/* Example: */}
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          {/* <a href="#" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-twitter"></i>
-          </a>
+          </a> */}
           <a
             href="https://www.linkedin.com/in/abdul-alkout/"
             target="_blank"

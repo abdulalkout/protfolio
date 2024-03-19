@@ -8,7 +8,7 @@
   width: 400px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1200px) {
   .myPic {
     width: 80%;
   }

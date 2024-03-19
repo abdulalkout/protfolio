@@ -57,7 +57,7 @@
   color: brown;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1200px) {
   /* For mobile phones: */
   .oilwebimg {
     width: 300px;

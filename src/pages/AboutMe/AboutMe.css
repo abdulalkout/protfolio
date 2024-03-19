@@ -4,12 +4,12 @@
   /* height: 200px; */
 }
 
-.myPic {
-  width: 400px;
+.aboutPic {
+  width: 37vw;
 }
 
 @media only screen and (max-width: 1200px) {
-  .myPic {
-    width: 80%;
+  .aboutPic {
+    width: 50vw;
   }
 }

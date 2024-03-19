@@ -34,6 +34,29 @@
   .summery {
     color: black;
     font-size: medium;
+    margin: 0 15%;
+  }
+  .my-name {
+    color: brown;
+    font-size: larger;
+  }
+
+  .myPic {
+    width: 30vw;
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .section-1 {
+    text-align: center;
+    display: block;
+    margin: 0px 20px;
+  }
+
+  .summery {
+    color: black;
+    font-size: medium;
     margin: 0px;
   }
   .my-name {

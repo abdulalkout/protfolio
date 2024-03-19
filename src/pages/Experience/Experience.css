@@ -1,5 +1,5 @@
 .experiencePadeDiv {
-  margin-top: 80px;
+  margin-top: 5%;
 }
 
 .exHeader {
@@ -12,13 +12,18 @@
 }
 
 .software-Experience {
-  margin-top: 10px;
+  margin-top: 2%;
 }
 
-.oilwebimg,
+.oilwebimg {
+  width: 35vw;
+  margin-bottom: 3%;
+  /* height: 300px; */
+}
+
 .oilFieldimg {
-  width: 500px;
-  height: 300px;
+  width: 15vw;
+  margin-bottom: 3%;
 }
 
 .aktimg {
@@ -31,7 +36,7 @@
 }
 
 .Software-div {
-  margin-top: 50px;
+  margin-top: 5%;
 }
 
 .sectionIntro {
@@ -39,16 +44,16 @@
 }
 .projectIntro {
   font-size: larger;
-  margin-top: 80px;
+  margin-top: 2%;
 }
 .projectIntro2 {
   font-size: larger;
-  margin-top: 50px;
+  margin-top: 2%px;
 }
 
 .projectPoints {
   font-size: medium;
-  margin-top: 50px;
+  margin-top: 2%;
   text-align: left;
 }
 
@@ -60,8 +65,48 @@
 @media only screen and (max-width: 1200px) {
   /* For mobile phones: */
   .oilwebimg {
-    width: 300px;
-    height: 150px;
+    width: 70vw;
+    margin-bottom: 2%;
+    /* height: 250px; */
+  }
+
+  .aktimg {
+    height: 200px;
+  }
+
+  .imageDiv {
+    display: block;
+    /* flex-direction: column; */
+    gap: 25px;
+  }
+
+  .sectionIntro {
+    font-size: medium;
+  }
+  .projectIntro {
+    font-size: medium;
+    margin-top: 5px;
+  }
+
+  .projectPoints {
+    text-align: left;
+    font-size: medium;
+    margin-top: 20px;
+    margin-left: 25px;
+  }
+
+  .oilFieldimg {
+    /* height: 250px; */
+    width: 30vw;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  /* For mobile phones: */
+  .oilwebimg {
+    width: 70vw;
+    /* height: 150px; */
   }
 
   .aktimg {

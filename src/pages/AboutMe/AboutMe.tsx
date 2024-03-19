@@ -42,7 +42,7 @@ const AboutMe: React.FC = () => {
                   demonstrates strong leadership skills in steering
                   cross-functional teams towards success.
                 </p>
-                <img className="myPic" src={codingproject} alt="Abdul" />
+                <img className="aboutPic" src={codingproject} alt="Abdul" />
               </div>
             </div>
           </div>
@@ -64,7 +64,7 @@ const AboutMe: React.FC = () => {
                   executing Tough Logging Condition (TLC) operations, underscore
                   his impact in the oil and gas sector.
                 </p>
-                <img className="myPic" src={oil} alt="Abdul" />
+                <img className="aboutPic" src={oil} alt="Abdul" />
               </div>
             </div>
           </div>
@@ -105,7 +105,7 @@ const AboutMe: React.FC = () => {
                   Rigs Management Website, exemplifies his ability to design and
                   implement essential features using the software SDLC.
                 </p>
-                <img className="myPic" src={perShcolas} alt="Abdul" />
+                <img className="aboutPic" src={perShcolas} alt="Abdul" />
               </div>
             </div>
           </div>
@@ -149,7 +149,7 @@ const AboutMe: React.FC = () => {
                   technical skills to real-world solutions.
                 </p>
                 <img
-                  className="myPic"
+                  className="aboutPic"
                   src={eeeCertificate}
                   alt="EEE-Certificate"
                 />

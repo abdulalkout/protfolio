@@ -5,11 +5,19 @@
 }
 
 .aboutPic {
-  width: 37vw;
+  height: 50vh;
+  border-radius: 20px;
+}
+
+.skills-container:hover {
+  background-color: rgba(65, 29, 29, 0.196) !important;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 1200px) {
   .aboutPic {
-    width: 50vw;
+    display: none;
+    height: 40vh;
+    border-radius: 20px;
   }
 }
